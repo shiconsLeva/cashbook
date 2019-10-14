@@ -1,0 +1,412 @@
+body{
+	margin: 0;
+	padding: 0;
+	min-width: 375px;
+	/*background-color: #f2f2f2;*/
+}
+
+body *{
+	/*background-color: #fff;*/
+}
+
+*{
+	font-family: 微软雅黑;
+}
+
+input{
+	border: none;
+	outline: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+/*头部标题*/
+.head{
+	background-color: #0c79a2;
+	height: 56px;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+	line-height: 56px;
+	position: relative;
+}
+/*左箭头*/
+.head .iconfont.icon-zuojiantou{
+	position: absolute;
+	left: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+}
+
+
+
+
+/*间隔*/
+.gap{
+	width: 100%;
+	height: 21px;
+	background-color: #f2f2f2;
+}
+
+
+
+
+/*菜单*/
+.menus{
+	border-bottom: solid 1px #eee;
+	border-top: solid 1px #eee;
+}
+
+.menu{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 12px;
+	border-bottom: solid 1px #eee;
+	line-height: 45px;
+}
+
+.menu:last-of-type{
+	border: none;
+}
+
+/*项目菜单提示*/
+.menus .tip{
+	background-color: #f2f2f2;
+	font-size: 14px;
+	padding: 7px 12px;
+	margin: 0;
+	color: #555;
+}
+
+/*项目图标*/
+.menu .iconfont{
+	color: #0c79a2;
+	margin-right: 5px;
+	font-size: 25px;
+	vertical-align: middle;
+}
+/*项目名称*/
+.menu .title{
+	vertical-align: middle;
+}
+
+
+/*右箭头*/
+.menu .icon-youjiantou{
+	margin-left: 3px;
+	margin-right: 0;
+	font-weight: bold;
+	color: #aaa;
+	font-size: 16px;
+}
+
+
+/*输入框*/
+.menu input{
+	line-height: 45px;
+	font-size: 16px;
+	width: 100%;
+}
+
+
+
+
+
+/*输入表单*/
+.form.menus{
+	box-sizing: border-box;
+	width: 95%;
+	margin: auto;
+	margin-top: 21px;
+	border-radius: 5px;
+	padding: 0px 10px;
+	border: solid 1px #ccc;
+}
+
+/*表单输入外框*/
+.form .menu{
+	height: 42px;
+	border-bottom: solid 1px #ccc;
+	padding: 0;
+}
+
+.form .menu:last-child{
+	border: none;
+}
+
+/*表单输入*/
+.form .menu input{
+	font-size: 18px;
+	line-height: 42px;
+	padding: 0px;
+}
+
+
+
+
+
+/*大按钮*/
+.submit{
+	display: block;
+	width: 95%;
+	margin: 24px auto;
+	background-color: #0c79a2;
+	height: 48px;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 48px;
+	font-size: 18px;
+	color: #fff;
+}
+
+
+
+
+
+/*消息提示*/
+.van-notify{
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	top: 56px;
+	background: #ffe1e1;
+}
+
+
+
+/*短信验证码*/
+.vcode{
+	padding-right: 0;
+}
+/*输入*/
+.menu.vcode input{
+	width: 55%;
+	border-right: solid 1px #ccc;
+	padding-right: 12px;
+}
+
+/*获取验证码*/
+.vcode span{
+	display: inline-block;
+	width: 45%;
+	text-align: center;
+	line-height: 47px;
+}
+
+
+
+/*图片验证码弹出框*/
+.alertBox{
+	min-height: 549px;
+	width: 100%;
+	background-color: #00000081;
+	position: fixed;
+	top: 0;
+}
+
+.alert{
+	width: 67%;
+	border-radius: 10px;
+	background-color: #fff;
+	margin: auto;
+	margin-top: 240px;
+	padding: 16px 0;
+	position: relative;
+}
+
+/*图片验证码*/
+.pictureVcodeContent{
+	width: 72%;
+	margin: auto;
+}
+
+/*小标题*/
+.pictureVcodeContent p{
+	text-align: center;
+	margin-top: 0;
+}
+
+/*输入*/
+.pictureVcodeContent div{
+	font-size: 0px;
+	border: solid 1px #ccc;
+	height: 36px;
+}
+
+.pictureVcodeContent div *{
+	display: inline-block;
+	box-sizing: border-box;
+	width: 50%;
+	height: 100%;
+	vertical-align: middle;
+}
+/*图片*/
+.pictureVcodeContent .vcodePicture{
+	border-right: solid 1px #ccc;
+}
+/*输入框*/
+.pictureVcodeContent .vcodeInput{
+	font-size: 18px;
+	padding: 0 12px;
+	text-align: center;
+}
+
+/*确定按钮*/
+.pictureVcodeContent .submit{
+	width: 100%;
+	height: 36px;
+	line-height: 36px;
+	font-size: 15px;
+	margin-top: 12px;
+	margin-bottom: 0;
+}
+
+
+/*关闭按钮*/
+.pictureVcode .icon-guanbi{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+
+
+
+/*选项输入框*/
+select{
+	outline: none;
+	border: none;
+	width: 75%;
+	background-color: #fff;
+}
+
+select option{
+	outline: none;
+}
+
+
+
+.menus textarea{
+	width: 100%;
+	font-size: 16px;
+	resize: none;
+	border: none;
+	outline: none;
+	height: 48px;
+	line-height: 21px;
+	padding: 16px 8px;
+}
+
+
+
+/*确认弹出框*/
+.confirmBox .alert{
+	border-radius: 3px;
+	height: auto;
+	padding-bottom: 0;
+	width: 81%;
+}
+
+.confirmBox h4,.confirmBox p{
+	text-align: center;
+	margin: 0px;
+}
+
+.confirmBox p{
+	margin: 12px 0px 12px;
+	color: #555;
+}
+
+
+
+/*确认按钮*/
+.confirmBox .confirm{
+	width: 100%;
+	border-top: solid 1px #ccc;
+	font-size: 0;
+}
+
+.confirmBox .confirm span{
+	display: inline-block;
+	box-sizing: border-box;
+	width: 50%;
+	height: 36px;
+	line-height: 36px;
+	font-size: 13px;
+	text-align: center;
+}
+
+.confirmBox .confirm .yes{
+	border-left: solid 1px #ccc;
+	color: #0c79a2;
+}
+
+
+
+/*单选弹出框*/
+.checkBox .alert{
+	height: auto;
+	padding: 21px 16px 3px;
+}
+
+.checkBox .alert label{
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 16px;
+}
+
+
+.menu span+input{
+	width: 72%;
+	text-align: right;
+}
+
+
+
+
+/*滑出菜单*/
+.swipe .van-cell{
+	padding: 12px 10px;
+	color: #000;
+}
+
+.swipe .van-cell__title, .swipe .van-cell__value, .swipe .van-button{
+	font-size: 16px;
+}
+
+.swipe .van-cell__value{
+	color: red;
+}
+
+/*右侧滑出按钮*/
+.swipe .van-swipe-cell__right{
+	font-size: 0;
+}
+.swipe .van-button{
+	height: 100%;
+	border: none;
+	width: 70px;
+}
+
+
+
+
+
+.van-uploader__input-wrapper{
+	padding-bottom: 8px;
+}
+
+.van-uploader__input-wrapper img{
+	border: 1px solid #c9c9c9;
+	border-radius: 5px;
+	background-color: #e4e4e4;
+}
+
+.van-image img{
+	border-radius: 5px;
+	border: 1px solid #c9c9c9;
+}
